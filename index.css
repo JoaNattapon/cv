@@ -1,0 +1,157 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body {
+    background: rgb(232, 234, 234);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: ;
+}
+.container .left_side{
+    position: relative;
+    background: #002147;
+    padding: 40px;
+}
+.profiletext{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+}
+img{
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+.profiletext h2{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+.profiletext h2 span {
+    font-size: .8em;
+    font-weight: 50;
+}
+.contact_info{
+    padding-top: 40px;
+
+}
+.title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.contact_info ul{
+    position: relative;
+}
+.contact_info ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+}
+.contact_info ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+.contact_info ul li span{
+    color: #fff;
+}    
+.education{
+    padding-top: 40px;
+    
+}
+.education h3{
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+.education ul li{
+    list-style: none;
+    line-height: 1.75em;
+}
+.education ul li h4{
+    padding-left: 30px;
+    color: #03a9f4;
+    font-weight: 200;
+}
+.lang{
+    padding-top: 40px;
+}
+.lang h3{
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+.lang ul li h4{
+    padding-left: 30px;
+    color: #03a9f4;
+    font-weight: 200;
+}
+
+.container .right_side{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+.title2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #12339e;
+}
+.right_side .about p{
+    line-height: 1.55em;
+}
+.about .box h5{
+    padding-bottom: 3px;
+    color: rgb(106, 106, 107);
+}
+.about .box .year_company .h_2{
+    padding-bottom: 9px;
+}
+.box ul li{
+    list-style: none;
+    line-height: 1.3em;
+}
+
+.about-skill ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    list-style: none;
+    line-height: 3.7em;
+    
+}
+.about-skill li{
+    
+}
+.right_side .about a {
+    color: rgb(140, 235, 140);
+    font-weight: 1.3em;
+    font-size: larger;
+}
