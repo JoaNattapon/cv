@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPI</title>
+    <link rel="stylesheet" href="share.css">
+    <link rel="stylesheet" href="Bod.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="gpi-logo">
+            <a href="practice.html">
+                <img class="logo__header" src="Gpi-photo/Gpi-logo.png" alt="">
+            </a>
+        </div>
+        <nav class="main-nav">
+            <ul class="menu-list">
+                <li>
+                    <a href="">Financial</a>
+                </li>
+                <li>
+                    <a target="_blank" rel="no-referrer" href="shareholder.html">Shareholders</a>
+                </li>
+                <li>
+                    <a href="">Other</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="background-img"></div>
+    <main>
+        <div class="Space">
+            <div class="Shape">
+                <div class="Unskew">
+                    <h1>JoJo Simpson</h1>
+                    <p>ประธานกรรมการ <br>
+                        กรรมการอิสระ
+                    </p>
+                </div>
+                <img src="Gpi-bod/1.png" alt="" class="photo-bod">
+            </div>
+            <div class="Shape">
+                <div class="Unskew">
+                    <h1>Herbert Simpson</h1>
+                    <p>ประธานกรรมการบริหาร <br>
+                        ประธานเจ้าหน้าที่บริหาร
+                    </p>
+                </div>
+                <img src="Gpi-bod/2.png" alt="" class="photo-bod">
+            </div>
+            <div class="Shape">
+                <div class="Unskew">
+                    <h1>Marry Simpson</h1>
+                    <p>กรรมการ <br>
+                        กรรมการบริหาร <br>
+                        กรรมการบริหารความเสี่ยงและการพัฒนา
+                    </p>
+                </div>
+                <img src="Gpi-bod/3.png" alt="" class="photo-bod">
+            </div>
+            <div class="Shape">
+                <div class="Unskew">
+                    <h1>Jay Simpson</h1>
+                    <p>กรรมการ
+                    </p>
+                </div>
+                <img src="Gpi-bod/4.png" alt="" class="photo-bod">
+            </div>
+            <div class="Shape">
+                <div class="Unskew">
+                    <h1>Whitney Simpson</h1>
+                    <p>กรรมการ <br>
+                        กรรมการบริหาร <br>
+                        กรรมการบริหารความเสี่ยงและการพัฒนา
+                    </p>
+                </div>
+                <img src="Gpi-bod/5.png" alt="" class="photo-bod">
+            </div>
+            <div class="Shape">
+                <div class="Unskew">
+                    <h1>Aunty Simpson</h1>
+                    <p>กรรมการ <br>
+                        กรรมการบริหาร <br>
+                        กรรมการบริหารความเสี่ยงและการพัฒนา <br>
+                        กรรมการสรรหา พิจารณาค่าตอบแทนและกรรมการกำกับดูแลกิจการที่ดี
+                    </p>
+                </div>
+                <img src="Gpi-bod/6.png" alt="" class="photo-bod">
+            </div>
+            <div class="Shape">
+                <div class="Unskew">
+                    <h1>Mona Simpson</h1>
+                    <p>ประธานกรรมการตรวจสอบ <br>
+                        กรรมการสรรหา พิจารณาค่าตอบแทนและการกำกับ<br>
+                        ดูแลกิจการที่ดี <br>
+                        กรรมการอิสระ
+                    </p>
+                </div>
+                <img src="Gpi-bod/7.png" alt="" class="photo-bod">
+            </div>
+            <div class="Shape">
+                <div class="Unskew">
+                    <h1>Marjorie Simpson</h1>
+                    <p>ประธานกรรมการสรรหา พิจารณาค่าตอบแทนและกรรมการกำกับดูแลกิจการที่ดี <br>
+                        กรรมการอิสระ <br>
+                        กรรมการตรวจสอบ
+                    </p>
+                </div>
+                <img src="Gpi-bod/8.png" alt="" class="photo-bod">
+            </div>
+        
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <img class="logo__footer" src="Gpi-photo/Gpi-logo.png" alt="">
+        <p>
+            บริษัท กรังด์ปรีซ์ อินเตอร์เนชั่นแนล จำกัด (มหาชน) <br>
+            4/299 หมู่ที่ 5 ซอยลาดปลาเค้า 66 ถ.ลาดปลาเค้า แขวงอนุสาวรีย์ เขตบางเขน กทม. 10220 , © 2022 GPI เบอร์โทร : 02
+            196 5050
+        </p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script>
+        gsap.from('.main-header', {duration:1, opacity:.15});
+        let timeline = gsap.timeline();
+        timeline.from('.Space', {duration:2.5, scale:0});
+        timeline.from('.gpi-logo,.main-nav', {duration:3, opacity:0});
+
+    </script>
+</body>
+
+</html>

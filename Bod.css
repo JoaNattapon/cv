@@ -1,0 +1,47 @@
+
+main{
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.83)),url(Gpi-photo/1.JPG);
+    background-size: cover;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    
+}
+
+.Shape {
+    width: 60%;
+    color: antiquewhite;
+    max-width: 900px;
+    min-height: 240px;
+    transform: skew(-24deg);
+    background: rgb(1,1,13);
+    background: linear-gradient(47deg, rgb(16, 16, 59) 29%, rgba(9,9,121,1) 55%, rgba(0,212,255,1) 100%);
+    margin: 8px auto;
+    transition: .8s;
+    z-index: 2;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+}
+.Shape:hover {
+    transform: scale(1.03) skew(-24deg);
+    box-shadow: 12px 7px 12px rgb(16, 95, 244);
+}
+.Space{
+    padding: 80px 0;
+}
+.Unskew{
+    transform: skew(24deg);
+    padding-left: 40px;
+    display: inline-block;
+}
+.Unskew p{
+    padding-left: 40px;
+}
+.photo-bod{
+    min-height: 380px;
+    width: 270px;
+    transform: skew(24deg);
+    position: absolute;
+    left: 65%;
+    
+}

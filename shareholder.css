@@ -1,0 +1,49 @@
+*{
+    margin: 0%;
+    
+}
+body{
+    margin: 0%;
+    height: 100px;
+}
+.background{
+    width: 100%;
+    height: 900px;
+}
+h1{
+    position: relative;
+    font-size: 2em;
+    left: 70%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.shareholders-header{
+    position: absolute;
+    color: aliceblue;
+    top: 15.5%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+table{
+    position: absolute;
+    color: aliceblue;
+    z-index: 2;
+    left: 50%;
+    top: 53%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 12px 12px 0 0;
+    border-color: aliceblue;
+    overflow: hidden;
+    text-align: center;
+    
+}
+th{
+    background-color: rgb(51, 139, 221);
+    
+}
+th,td{
+    padding: 12px;
+    
+}
